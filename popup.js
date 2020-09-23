@@ -5,3 +5,8 @@ chrome.storage.sync.get('color', (data) => {
     colorButton.style.backgroundColor = data.color;
 
 })
+
+colorButton.onClick = function(button){
+    let color = button.target.value
+    console.log(color)
+}
