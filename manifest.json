@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "hellow_world",
+    "version": "0.0.1",
+    "description": "my first chrome extension",
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "permissions": ["bookmarks", "storage"]
+
+}
